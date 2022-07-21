@@ -1,0 +1,16 @@
+.login-section {
+  background-image: linear-gradient(to top, #201f1f, #470000, #990000);
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  /* height: calc(100vh - 60px); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-body {
+  color: #fff;
+  /* max-width: calc(100vw - 70%); */
+  min-width: calc(100vw - 70%);
+}

@@ -1,0 +1,19 @@
+.category {
+  background-color: #1a5972;
+  /* border: 1px #2c3639 solid; */
+  color: #f8f3d4;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 0.6px;
+  margin: 10px auto;
+}
+
+.description {
+  /* border: 0.5px #a6e3e9 solid;
+  border-radius: 5px; */
+  padding: 5px;
+  max-height: 80px;
+  overflow: auto;
+}

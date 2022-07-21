@@ -1,0 +1,35 @@
+.ingredient-left,
+.ingredient-right {
+  height: calc(100vh - 50px);
+  overflow: hidden;
+  overflow-y: auto;
+  margin-bottom: 30px;
+}
+
+.ingredient-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredient-name {
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  opacity: 0;
+  backdrop-filter: blur(5px);
+
+  /* padding: 90px 60px; */
+}
+
+.ingredient-name:hover {
+  opacity: 1;
+}

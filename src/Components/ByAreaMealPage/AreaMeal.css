@@ -1,0 +1,23 @@
+.meal-body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meal-name {
+  position: absolute;
+  bottom: 0;
+  font-size: 25px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  backdrop-filter: blur(5px);
+}
+
+.meal-name:hover {
+  opacity: 1;
+}

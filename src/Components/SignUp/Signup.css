@@ -1,0 +1,14 @@
+.signup-section {
+  background-image: linear-gradient(to top, #201f1f, #470000, #990000);
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-body {
+  color: #fff;
+  min-width: calc(100vw - 70%);
+}
