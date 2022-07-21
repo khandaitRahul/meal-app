@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <div className="Header p-1 px-3">
 
-      <div className="brand pt-1 fs-3" onClick={handleHome}><strong>Quick Food</strong></div>
+      <div className="brand pt-1 fs-3" onClick={handleHome}><strong>Quick Food logo</strong></div>
       <div className="mt-1">
         <button className="btn btn-info m-1" onClick={handleIngredients}>Ingredients</button>
         <button className="btn btn-info m-1" onClick={handleArea}>Area</button>
